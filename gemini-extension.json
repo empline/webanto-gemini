@@ -1,0 +1,29 @@
+{
+  "name": "webanto",
+  "version": "1.0.0",
+  "description": "Webanto store catalog, copy proposals, Search Console insights, and organization knowledge via OAuth.",
+  "mcpServers": {
+    "webanto": {
+      "httpUrl": "https://api.webanto.com/api/v1/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "products:read",
+          "products:enrich",
+          "jobs:read",
+          "seo:read",
+          "memory:read"
+        ]
+      },
+      "includeTools": [
+        "webanto_list_products",
+        "webanto_get_product",
+        "webanto_list_copy_proposals",
+        "webanto_enrich_product",
+        "webanto_get_job",
+        "webanto_search_console_opportunities",
+        "webanto_search_memory"
+      ]
+    }
+  }
+}
