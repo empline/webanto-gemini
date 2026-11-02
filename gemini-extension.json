@@ -1,10 +1,10 @@
 {
   "name": "webanto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webanto store catalog, copy proposals, Search Console insights, and organization knowledge via OAuth.",
   "mcpServers": {
     "webanto": {
-      "httpUrl": "https://api.webanto.com/api/v1/mcp",
+      "httpUrl": "https://webanto.com/api/mcp",
       "oauth": {
         "enabled": true,
         "scopes": [

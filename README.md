@@ -12,7 +12,7 @@ gemini extensions install https://github.com/empline/webanto-gemini
 ```
 
 Restart an existing Gemini CLI session after installation. The extension connects
-over Streamable HTTP to `https://api.webanto.com/api/v1/mcp`, the same existing
+over Streamable HTTP to `https://webanto.com/api/mcp`, the same existing
 Webanto MCP endpoint used by other clients. It installs no local server or extra
 dependencies and contains no API key or client secret.
 
